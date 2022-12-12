@@ -1,0 +1,171 @@
+/* ******************************************************************************
+						DROP DOWN MENU CSS																						
+******************************************************************************* */
+		html, body {
+			height:100%;
+			margin:0;
+   			padding:0;
+   			
+   			/* The image used */
+		    background-image: url("auberge.jpg");
+		
+		    /* Full height */
+		    height:100%; 
+		
+		    /* Center and scale the image nicely */
+		    background-position: center;
+		    background-repeat: no-repeat;
+		    background-size: cover;
+   			
+		}
+
+		#header_content{
+			background-color:#454545;
+			padding:15px 0px;
+			display:inline-block;
+			width: 100%;
+			height:auto;
+			border-style: none;
+			opacity: 1;
+			box-shadow: 0 8px 6px -6px black; 
+			border-top-left-radius: 20px;
+			border-top-right-radius: 20px;
+		}
+		
+		#menuWrapper {
+			float: right;
+			margin-right:20px;
+			background-color:#454545;
+		}
+		
+		.nav {
+			color:#F1F1F1;
+			list-style-type: none;
+			margin:0px;
+			padding: 0;
+			overflow: hidden;
+		}
+		
+		.nav > li {
+			float: left;
+		}
+		
+		.nav > li a{
+			text-decoration: none;
+			font-family: Sans-Serif;
+			font-size: 20px;
+			font-weight:bold;
+			padding:30px 15px;
+			margin-top:15px;
+			color: inherit;
+		}
+		
+		.nav > li a:hover {
+			color:#4CAF50;
+			-webkit-transition: all 0.4s;
+			-moz-transition: all 0.4s;
+			-ms-transition: all 0.4s;
+			-o-transition: all 0.4s;
+			transition: all 0.4s;		
+		}
+		
+		.btnLogout{
+			background-color: #4CAF50;
+			color: white;
+    		padding: 15px 7px;
+		    text-align: center;
+		    border: none;
+    		border-radius: 4px;
+		    display: inline-block;
+		    font-size: 14px;
+		    transition-duration: 0.4s;
+		}
+		
+		.btnLogout:hover{
+			background-color: white;
+			color: black;
+    		padding: 15px 7px;
+		    text-align: center;
+		    border: none;
+    		border-radius: 4px;
+		    display: inline-block;
+		    font-size: 14px;
+		    cursor:hand;
+		}
+		
+		#logoutWrapper{
+			margin-left:30px;
+			margin-top:15px;
+			float:left
+		}
+		
+		.afficherLeft {
+			float: left;
+			width: 200px;
+			margin-left:15%;
+			height:250px;
+		}
+		
+		.afficherRight {
+			float: right;
+			width: 800px;
+			margin-right: 15%;
+			height:250px;
+		}
+		
+		.afficherBottom {
+		   position:absolute;
+		   bottom:0;
+		   width:100%;
+		   height:60px;
+		   background:white;
+		}
+		
+		.contentUpCanvas{
+			background-color:white;
+			width:100%;
+			min-height:100%;
+   			position:relative;
+		}
+		
+		.btnForm{
+		    background-color: #4CAF50; /* Green */
+    		border: none;
+    		color: white;
+    		padding: 15px 32px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 16px;
+		}
+		
+		.btnForm:hover{
+			cursor: hand;
+		}
+			
+		table {
+   			font-family: arial, sans-serif;
+   			border-collapse: collapse;
+    		width: 100%;
+		}
+
+		td, th {
+		    border: 1px solid #dddddd;
+		    text-align: left;
+		    padding: 8px;
+		}
+
+		tr:nth-child(even) {
+		    background-color: #dddddd;
+		}
+		
+		input[type=text], select {
+		    padding: 12px 20px;
+		    margin: 8px 0;
+		    display: inline-block;
+		    border: 1px solid #ccc;
+		    border-radius: 4px;
+		    box-sizing: border-box;
+		}
+
+		
